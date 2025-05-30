@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Member, MemberChange, ChangesSummary, ApiResponse } from '../types';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://rpc.servox.store/loud/api';
+const API_BASE_URL = 'http://rpc.servox.store/loud/api';
 
 const api = axios.create({
   baseURL: API_BASE_URL,

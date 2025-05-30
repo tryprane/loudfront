@@ -17,7 +17,7 @@ class WebSocketService {
   private wsUrl: string;
 
   constructor() {
-    this.wsUrl = process.env.REACT_APP_WS_URL || 'ws://rpc.servox.store/loudio';
+    this.wsUrl =  'ws://rpc.servox.store/loudio';
     this.connect();
   }
 
